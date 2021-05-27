@@ -10,7 +10,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 // Define a route.
 app.get("/", (req, res) => {
-  res.render("index");
+	res.render("index");
 });
 
 // Define a port and start listening for connections.
